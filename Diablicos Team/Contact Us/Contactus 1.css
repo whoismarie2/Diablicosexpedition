@@ -1,0 +1,122 @@
+.h1{
+  text-align: left;
+  font-size: 0.9cm;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 20px;
+  margin: 0 0 0 0;
+  width: 100px;
+
+}
+.navbar{
+  font-family: 'Trebuchet MS';
+  font-size: 0.5cm;
+  font-weight: bolder;
+  text-align: right;
+  background-color: rgb(252, 252, 252);
+  font-family: "Merriweather"
+}
+a{
+  padding-right: 9%;
+  color: black;
+  font-size: 23px;
+  text-decoration: none;
+}
+.Tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C1E398; 
+    font-size: 200%;
+    width: 1400px;
+    height: 100px;
+    margin-left: 0px;
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+
+}
+.container1{
+  width: 100%;
+  max-width: 1200px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  
+}
+.container1 .card{
+  width: 350px;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgb(0, 0, 0, 0.2) ;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  background-color:#B8EBD4;
+  font-family: 'Rubik', sans-serif;
+  
+}
+.container1 .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgb(0, 0, 0, 0.2);
+}
+.icono{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+.Title{
+  font-family: 'Galada', cursive;
+  text-align: center;
+  text-decoration: underline;
+  color:#D3A338;
+}
+
+form{
+  width: 90%;
+  
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #D3A338;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical
+
+}
+
+input[type=submit] {
+  background-color: #f4ac64;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #c7864d;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 150px;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+figure{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 60%;
+}

@@ -1,0 +1,57 @@
+.h1{
+    text-align: left;
+    font-size: 0.9cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    margin: 0 0 0 0;
+    width: 100px;
+
+}
+.navbar{
+    font-family: 'Trebuchet MS';
+    font-size: 0.5cm;
+    font-weight: bolder;
+    text-align: right;
+    background-color: rgb(252, 252, 252);
+    font-family: "Merriweather"
+}
+a{
+    padding-right: 9%;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.HomePage{
+    font-family: 'Galada', cursive;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 180, 124);
+    font-size: 300%;
+    display: flex;
+    width: 1400px;
+    height: 100px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5cm;
+    font-family: "Slabo 27px";
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.textocarr{
+    text-align: right;
+    margin-right: 35px;
+}
+
+img{
+    height: 20%;
+    clip-path: inset(20% 30% 40% 20%);
+    border-radius: 100%;
+}
